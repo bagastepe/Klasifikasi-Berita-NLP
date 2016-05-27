@@ -41,7 +41,7 @@ Jalankan melalui terminal `$ python Classify.py`
 > Hasil Running
 
 > ![Screenshot][classify]
-[classify]: https://github.com/bagastepe/Klasifikasi-Berita-NLP/classify_ss.png "Screenshot"
+[classify]: https://github.com/bagastepe/Klasifikasi-Berita-NLP/blob/master/classify_ss.png "Screenshot"
 
 
 
