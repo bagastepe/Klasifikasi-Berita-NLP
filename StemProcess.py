@@ -1,10 +1,12 @@
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 from textblob import TextBlob as tb
-from Stop import get_stop
+from StopWords import get_stop
+import sys
 
 stop_words = set(get_stop())
-# create stemmer
+
+# create stemmer Sastrawi
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
@@ -21,12 +23,11 @@ def get_berita(url):
     return teks
 
 def stem_words(url,type="text"):
-    # output = stemmer.stem(get_berita(url))
+
     if type != "text":
         output = get_berita(url)
     else:
         output = url
-    # print (output)
 
     sentence2 = tb(output.lower())
     word_token = sentence2.words
@@ -42,5 +43,5 @@ def stem_words(url,type="text"):
 
             filtered_sentence.append(w)
 
-    print(" ".join(filtered_sentence),"\n")
+    #print(" ".join(filtered_sentence),"\n")
     return " ".join(filtered_sentence)

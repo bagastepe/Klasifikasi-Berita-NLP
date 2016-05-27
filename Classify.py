@@ -1,6 +1,6 @@
 from textblob.classifiers import NaiveBayesClassifier
 from textblob import TextBlob as tb
-from Stem import stem_words
+from StemProcess import stem_words
 import traintes
 from tabulate import tabulate
 
@@ -75,5 +75,3 @@ print(tabulate(table,header,tablefmt="grid"))
 print("akurasi adalah %f" %cl.accuracy(traintes.test))
 print("\n\n")
 print(cl.show_informative_features(10))
-
-
