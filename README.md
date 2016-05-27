@@ -4,15 +4,18 @@
 
 1. Download dan Install [Python 3.5](https://www.python.org/downloads/)
 2. Install [Sastrawi](https://github.com/har07/PySastrawi)
+
     ```
     $ pip install Sastrawi
     ```
 3. Install [TextBlob](http://textblob.readthedocs.io/)
+
     ```
     $ pip install -U textblob
     $ python -m textblob.download_corpora
     ```
 4. Install [Tabulate](https://pypi.python.org/pypi/tabulate)
+
     ```
     $ pip install tabulate
     ```
@@ -33,12 +36,12 @@ Hasil Stem akan tersimpan pada direktori dokumen *polstem.txt*, *ekostem.txt* da
 
 ### Hitung Akurasi Klasifikasi
 
-Jalankan melalui terminal `$ python Classify`
+Jalankan melalui terminal `$ python Classify.py`
 
 > Hasil Running
 
 > ![Screenshot][classify]
-[classify]: https://github.com/bagastepe/Klasifikasi-Berita-NLP/classify_ss.png "Logo Title Text 2"
+[classify]: https://github.com/bagastepe/Klasifikasi-Berita-NLP/classify_ss.png "Screenshot"
 
 
 
