@@ -25,6 +25,22 @@ $ git clone https://github.com/bagastepe/Klasifikasi-Berita-NLP.git
 $ cd Klasifikasi-Berita-NLP-master
 ```
 
-### Melakukan stemming
+### Stemming
 
-Jalankan melalui terminal dengan `python Main.py`
+Jalankan melalui terminal dengan `$ python StemBerita.py`.
+
+Hasil Stem akan tersimpan pada direktori dokumen *polstem.txt*, *ekostem.txt* dan *pendstem.txt*
+
+### Hitung Akurasi Klasifikasi
+
+Jalankan melalui terminal `$ python Classify`
+
+> Hasil Running
+
+> ![Screenshot][classify]
+[classify]: https://github.com/bagastepe/Klasifikasi-Berita-NLP/classify_ss.png "Logo Title Text 2"
+
+
+
+
+`
